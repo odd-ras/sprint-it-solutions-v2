@@ -1,0 +1,15 @@
+.home-container {
+  /*
+  background-image: url("./assets/images/pic-1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ */
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(85, 156, 135, 1) 62%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}

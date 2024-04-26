@@ -1,0 +1,19 @@
+.navigation_link {
+  text-decoration: underline;
+  color: #ffc107;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.navbar-custom {
+  background-color: transparent;
+  border-bottom: none;
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.navbar-custom a {
+  color: #ffc107;
+}
