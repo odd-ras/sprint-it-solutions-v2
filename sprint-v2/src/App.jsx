@@ -16,6 +16,7 @@ import {
 //bootstrap
 import Container from "react-bootstrap/Container";
 import BackToTopButton from "./components/BackToTopButton";
+import CallToAction from "./components/CallToAction";
 
 function App() {
   return (
@@ -24,10 +25,16 @@ function App() {
       <Container fluid className="home-container">
         <Home />
       </Container>
-      <Container fluid className="bg-secondary">
+      <Container fluid className="about-container">
         <About />
       </Container>
-      <Services />
+      <Container fluid className="service-container">
+        <Services />
+      </Container>
+      <Container fluid className="call-to-action_container text-white">
+        <CallToAction />
+      </Container>
+
       <Portfolio />
       <Team />
       <Contact />

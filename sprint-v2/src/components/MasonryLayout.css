@@ -1,0 +1,20 @@
+.card_image {
+  width: 100%;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+
+.col-1-style {
+  height: 700px;
+  overflow: hidden;
+}
+
+.col-2-style {
+  height: 300px;
+}
+
+.col-image {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
