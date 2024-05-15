@@ -1,0 +1,14 @@
+.footer-child_container {
+  min-height: 40vh;
+  width: 100vw;
+  font-size: smaller;
+}
+
+.footer-child_container a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-child_container a:hover {
+  color: #ffc107;
+}

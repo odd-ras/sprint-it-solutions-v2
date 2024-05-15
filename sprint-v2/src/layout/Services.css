@@ -1,5 +1,5 @@
 .services-child_container {
-  min-height: 100vh;
+  min-height: 90vh;
   width: 100vw;
 }
 
@@ -7,4 +7,8 @@
   height: 2px;
   width: 20%;
   border: 0;
+}
+
+.inner_style {
+  height: 500px;
 }

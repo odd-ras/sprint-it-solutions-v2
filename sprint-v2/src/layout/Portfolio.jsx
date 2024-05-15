@@ -23,15 +23,15 @@ import MasonryLayout from "../components/MasonryLayout";
 function Portfolio() {
   return (
     <Element name="portfolio">
-      <Container className="portfolio-child-container d-flex justify-content-center align-items-center">
+      <Container className="portfolio-child-container d-flex justify-content-center align-items-center my-4">
         <Row className="justify-content-center">
           <Col sm={12} className="">
             <div className="d-flex flex-column">
               <div className="d-flex align-items-center">
-                <h5 className="text-muted">PORTFOLIO</h5>
+                <h6 className="text-muted">PORTFOLIO</h6>
                 <hr className="bg-warning mx-2 styled_hr" />
               </div>
-              <h5 className="display-5">CHECK OUR PORTFOLIO</h5>
+              <h6 className="display-6 fw-bold">CHECK OUR PORTFOLIO</h6>
             </div>
           </Col>
           <MasonryLayout />

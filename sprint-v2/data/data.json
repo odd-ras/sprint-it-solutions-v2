@@ -1,0 +1,46 @@
+{
+  "testimonials": [
+    {
+      "id": 0,
+      "userName": "Karen Nyamu",
+      "title": "Product Manager - Safaricom",
+      "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est ante in.",
+      "profilePhoto": "../src/assets/images/profile-1.jpg"
+    },
+    {
+      "id": 1,
+      "userName": "Lorem Ipsum",
+      "title": "Lorem Ipsum",
+      "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est ante in.",
+      "profilePhoto": "../src/assets/images/profile-2.jpg"
+    },
+    {
+      "id": 2,
+      "userName": "Lorem Ipsum",
+      "title": "Lorem Ipsum",
+      "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est ante in.",
+      "profilePhoto": "../src/assets/images/profile-2.jpg"
+    },
+    {
+      "id": 3,
+      "userName": "Lorem Ipsum",
+      "title": "Lorem Ipsum",
+      "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est ante in.",
+      "profilePhoto": "../src/assets/images/profile-2.jpg"
+    },
+    {
+      "id": 4,
+      "userName": "Lorem Ipsum",
+      "title": "Lorem Ipsum",
+      "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est ante in.",
+      "profilePhoto": "../src/assets/images/profile-2.jpg"
+    },
+    {
+      "id": 5,
+      "userName": "Lorem Ipsum",
+      "title": "Lorem Ipsum",
+      "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est ante in.",
+      "profilePhoto": "../src/assets/images/profile-2.jpg"
+    }
+  ]
+}
