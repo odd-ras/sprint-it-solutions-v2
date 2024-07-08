@@ -19,6 +19,7 @@ import { Element } from "react-scroll";
 //images
 import imageOne from "../assets/images/pic-2.jpg";
 import MasonryLayout from "../components/MasonryLayout";
+import CardComponent from "../components/CardComponent";
 
 function Portfolio() {
   return (
@@ -34,7 +35,9 @@ function Portfolio() {
               <h6 className="display-6 fw-bold">CHECK OUR PORTFOLIO</h6>
             </div>
           </Col>
-          <MasonryLayout />
+          <Row xs={1} md={2} lg={4} className="py-4">
+            <CardComponent />
+          </Row>
           <Col md={6} className="">
             <div className="d-flex flex-column h-100 justify-content-center">
               <Image src={imageOne} fluid />

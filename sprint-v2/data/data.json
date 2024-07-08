@@ -42,5 +42,48 @@
       "testimonial": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam vulputate dignissim suspendisse in est ante in.",
       "profilePhoto": "../src/assets/images/profile-2.jpg"
     }
+  ],
+  "solutions": [
+    {
+      "id": 0,
+      "title": "Networking Solutions.",
+      "categories": [
+        "Switches",
+        "Routers",
+        "Wireless & Mobility",
+        "Network Management",
+        "Unified Gateway"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Lorem Ipsum",
+      "categories": ["one", "two", "three", "four", "five", "six"]
+    },
+    {
+      "id": 2,
+      "title": "Lorem Ipsum",
+      "categories": ["one", "two", "three", "four", "five", "six"]
+    },
+    {
+      "id": 3,
+      "title": "Lorem Ipsum",
+      "categories": ["one", "two", "three", "four", "five", "six"]
+    },
+    {
+      "id": 4,
+      "title": "Lorem Ipsum",
+      "categories": ["one", "two", "three", "four", "five", "six"]
+    },
+    {
+      "id": 5,
+      "title": "Lorem Ipsum",
+      "categories": ["one", "two", "three", "four", "five", "six"]
+    },
+    {
+      "id": 6,
+      "title": "Lorem Ipsum",
+      "categories": ["one", "two", "three", "four", "five", "six"]
+    }
   ]
 }

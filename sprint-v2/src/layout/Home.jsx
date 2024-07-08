@@ -10,7 +10,13 @@ import "./Home.css";
 
 //fa-icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faServer } from "@fortawesome/free-solid-svg-icons";
+import {
+  faComputer,
+  faDatabase,
+  faNetworkWired,
+  faServer,
+  faShieldHalved,
+} from "@fortawesome/free-solid-svg-icons";
 
 //react-scroll
 import { Element } from "react-scroll";
@@ -18,19 +24,19 @@ import { Element } from "react-scroll";
 function Home() {
   return (
     <Element name="home">
-      <Container className="child-container d-flex justify-content-center align-items-center text-white">
+      <Container className="home-child-container d-flex justify-content-center align-items-center text-white">
         <div className="d-flex flex-column justify-content-center overlay">
           <Container className="mb-5">
             <Row className="justify-content-center">
               <Col xs={8} className="">
                 <div className="d-flex flex-column text-center">
                   <h1 className="display-1">
-                    Lorem ipsum dolor sit amet, consectetur.
+                    Transforming Businesses with Smart IT Strategies
                   </h1>
                   <p className="fs-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                    Planning, enabling and supporting IT infrastructures.
+                    Proactive IT services, cybersecurity, cloud, network
+                    infrastructure, connectivity.
                   </p>
                 </div>
               </Col>
@@ -39,34 +45,44 @@ function Home() {
           <Container className="">
             <Row className="justify-content-center">
               <Col xs={12} md={4} lg={2} className="">
-                <div className="d-flex flex-column border align-items-center py-5">
-                  <FontAwesomeIcon icon={faServer} className="fa-2x" />
-                  <span>lorem ipsum</span>
-                </div>
+                <a href="#">
+                  <div className="d-flex flex-column border border-warning align-items-center py-5">
+                    <FontAwesomeIcon icon={faNetworkWired} className="fa-2x" />
+                    <span>Networks</span>
+                  </div>
+                </a>
               </Col>
               <Col xs={12} md={4} lg={2} className="">
-                <div className="d-flex flex-column border align-items-center py-5">
-                  <FontAwesomeIcon icon={faServer} className="fa-2x" />
-                  <span>lorem ipsum</span>
-                </div>
+                <a href="#">
+                  <div className="d-flex flex-column border border-warning align-items-center py-5">
+                    <FontAwesomeIcon icon={faDatabase} className="fa-2x" />
+                    <span>Database</span>
+                  </div>
+                </a>
               </Col>
               <Col xs={12} md={4} lg={2} className="">
-                <div className="d-flex flex-column border align-items-center py-5">
-                  <FontAwesomeIcon icon={faServer} className="fa-2x" />
-                  <span>lorem ipsum</span>
-                </div>
+                <a href="#">
+                  <div className="d-flex flex-column border border-warning align-items-center py-5">
+                    <FontAwesomeIcon icon={faServer} className="fa-2x" />
+                    <span>Servers</span>
+                  </div>
+                </a>
               </Col>
               <Col xs={12} md={4} lg={2} className="">
-                <div className="d-flex flex-column border align-items-center py-5">
-                  <FontAwesomeIcon icon={faServer} className="fa-2x" />
-                  <span>lorem ipsum</span>
-                </div>
+                <a href="#">
+                  <div className="d-flex flex-column border border-warning align-items-center py-5">
+                    <FontAwesomeIcon icon={faShieldHalved} className="fa-2x" />
+                    <span>Cyber Security</span>
+                  </div>
+                </a>
               </Col>
               <Col xs={12} md={4} lg={2} className="">
-                <div className="d-flex flex-column border align-items-center py-5">
-                  <FontAwesomeIcon icon={faServer} className="fa-2x" />
-                  <span>lorem ipsum</span>
-                </div>
+                <a href="#">
+                  <div className="d-flex flex-column border border-warning align-items-center py-5">
+                    <FontAwesomeIcon icon={faComputer} className="fa-2x" />
+                    <span>IT Support</span>
+                  </div>
+                </a>
               </Col>
             </Row>
           </Container>

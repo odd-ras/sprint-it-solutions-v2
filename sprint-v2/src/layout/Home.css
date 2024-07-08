@@ -1,4 +1,13 @@
-.child-container {
+.home-child-container {
   min-height: 100vh;
   width: 100vw;
+}
+
+.home-child-container a {
+  text-decoration: none;
+  color: white;
+}
+
+.home-child-container a:hover {
+  color: #ffc107;
 }

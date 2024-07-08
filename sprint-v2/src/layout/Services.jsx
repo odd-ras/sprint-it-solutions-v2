@@ -119,8 +119,11 @@ function Services() {
               />
               <h5 className="display-5">Managed I.T Services</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                We ovsersee and maintain the entirety of our client's IT
+                infrastructure and systems. This includes proactive monitoring,
+                regular maintenance, troubleshooting, and providing technical
+                support to ensure the smooth operation of all IT components
+                within the organization.
               </p>
             </div>
           </Col>
