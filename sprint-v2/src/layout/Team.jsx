@@ -11,6 +11,9 @@ import "./Team.css";
 
 //images
 import portraitTwo from "../assets/images/portrait-2.png";
+import portraitOne from "../assets/images/pp-3.png";
+import portraitThree from "../assets/images/demo-portrait.png";
+import portraitFour from "../assets/images/pp-4.png";
 
 //react-scroll
 import { Element } from "react-scroll";
@@ -30,69 +33,69 @@ function Team() {
             </div>
           </Col>
           <Col xs={12} md={6} lg={3} className="">
-            <Card>
+            <Card className="h-100">
               <Card.Img
                 variant="top"
-                src={portraitTwo}
-                className="bg-secondary-subtle"
+                src={portraitOne}
+                className="bg-secondary-subtle card__image"
               />
               <Card.Body>
                 <Card.Title>
-                  <span className="fw-bold">Dr. Silvester Otieno</span>
+                  <span className="fw-bold">Kelvin Ontumbi</span>
                 </Card.Title>
                 <Card.Text>
-                  <span className="lead text-muted">CEO</span>
+                  <span className="lead text-muted">CEO | Director</span>
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col xs={12} md={6} lg={3} className="">
-            <Card>
+            <Card className="h-100">
               <Card.Img
                 variant="top"
                 src={portraitTwo}
-                className="bg-secondary-subtle"
+                className="bg-secondary-subtle card__image"
               />
               <Card.Body>
                 <Card.Title>
-                  <span className="fw-bold">Eng. Kelvin Ontumbi</span>
+                  <span className="fw-bold">Kelvin Ontumbi</span>
                 </Card.Title>
                 <Card.Text>
-                  <span className="lead text-muted">CTO</span>
+                  <span className="lead text-muted">CTO | Director</span>
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col xs={12} md={6} lg={3} className="">
-            <Card>
+            <Card className="h-100">
               <Card.Img
                 variant="top"
-                src={portraitTwo}
-                className="bg-secondary-subtle"
+                src={portraitThree}
+                className="bg-secondary-subtle card__image"
               />
               <Card.Body>
                 <Card.Title>
-                  <span className="fw-bold">Ms. Karen Reson</span>
+                  <span className="fw-bold">Karen Reson</span>
                 </Card.Title>
                 <Card.Text>
-                  <span className="lead text-muted">BDR</span>
+                  <span className="lead text-muted">CFO | Director</span>
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
           <Col xs={12} md={6} lg={3} className="">
-            <Card>
+            <Card className="h-100">
               <Card.Img
                 variant="top"
-                src={portraitTwo}
-                className="bg-secondary-subtle"
+                src={portraitFour}
+                className="bg-secondary-subtle card__image"
               />
               <Card.Body>
                 <Card.Title>
-                  <span className="fw-bold">Dr. Tafari Marley</span>
+                  <span className="fw-bold">Tafari Marley</span>
                 </Card.Title>
                 <Card.Text>
-                  <span className="lead text-muted">Accountant</span>
+                  <span className="lead text-muted">Project Manager</span>
                 </Card.Text>
               </Card.Body>
             </Card>

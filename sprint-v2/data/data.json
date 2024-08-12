@@ -57,33 +57,65 @@
     },
     {
       "id": 1,
-      "title": "Lorem Ipsum",
-      "categories": ["one", "two", "three", "four", "five", "six"]
+      "title": "Security Solutions",
+      "categories": [
+        "Cloud & Web Security",
+        "Next-Generation Firewalls",
+        "Access Control & Policy",
+        "Video Surveillance",
+        "Incident Response"
+      ]
     },
     {
       "id": 2,
-      "title": "Lorem Ipsum",
-      "categories": ["one", "two", "three", "four", "five", "six"]
+      "title": "Cloud Solutions",
+      "categories": [
+        "Public Cloud",
+        "Enterprise Private Cloud",
+        "Cloud Backup",
+        "Provider and Community Cloud",
+        "Cloud Disaster Recovery",
+        "Hybrid Cloud"
+      ]
     },
     {
       "id": 3,
-      "title": "Lorem Ipsum",
-      "categories": ["one", "two", "three", "four", "five", "six"]
+      "title": "Data Management Solutions",
+      "categories": [
+        "Data Infrastructure Management",
+        "Storage Automation",
+        "Cloud Data Management",
+        "Data Protection"
+      ]
     },
     {
       "id": 4,
-      "title": "Lorem Ipsum",
-      "categories": ["one", "two", "three", "four", "five", "six"]
+      "title": "Virtualisation Solutions",
+      "categories": ["Desktop Virtualisation", "Server Virtualisation"]
     },
     {
       "id": 5,
-      "title": "Lorem Ipsum",
-      "categories": ["one", "two", "three", "four", "five", "six"]
+      "title": "Electrical Works",
+      "categories": [
+        "Security Installations",
+        "Fire Detection Systems",
+        "Building and Energy Control Systems",
+        "Electric Motor Control & Switchgear Systems",
+        "Instrumentation, Process Control and Automation",
+        "Office Electrical Wiring"
+      ]
     },
     {
       "id": 6,
-      "title": "Lorem Ipsum",
-      "categories": ["one", "two", "three", "four", "five", "six"]
+      "title": "Telecommunications",
+      "categories": [
+        "Fiber Installation",
+        "BTS Set Up & Maintenance",
+        "Microwave Backhaul",
+        "GSM Optimization",
+        "Structured Cabling - LAN, WAN",
+        "Data Center Services"
+      ]
     }
   ]
 }

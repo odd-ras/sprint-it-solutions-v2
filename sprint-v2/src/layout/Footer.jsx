@@ -22,6 +22,9 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 //images
 import logo2 from "../assets/images/logo2.jpg";
 
+//react-scroll
+import { Link } from "react-scroll";
+
 function Footer() {
   return (
     <>
@@ -77,8 +80,10 @@ function Footer() {
               <h5 className="lead text-center">Useful Links</h5>
               <ListGroup variant="flush">
                 <ListGroup.Item
-                  action
-                  href="#"
+                  as={Link}
+                  to="home"
+                  smooth
+                  duration={500}
                   className="custom-list-item bg-transparent border border-0"
                 >
                   <span>
@@ -90,8 +95,10 @@ function Footer() {
                   </span>
                 </ListGroup.Item>
                 <ListGroup.Item
-                  action
-                  href="#"
+                  as={Link}
+                  to="about"
+                  smooth
+                  duration={500}
                   className="custom-list-item bg-transparent border border-0"
                 >
                   <span>
@@ -103,8 +110,10 @@ function Footer() {
                   </span>
                 </ListGroup.Item>
                 <ListGroup.Item
-                  action
-                  href="#"
+                  as={Link}
+                  to="services"
+                  smooth
+                  duration={500}
                   className="custom-list-item bg-transparent border border-0"
                 >
                   <span>
@@ -116,8 +125,10 @@ function Footer() {
                   </span>
                 </ListGroup.Item>
                 <ListGroup.Item
-                  action
-                  href="#"
+                  as={Link}
+                  to="portfolio"
+                  smooth
+                  duration={500}
                   className="custom-list-item bg-transparent border border-0"
                 >
                   <span>
@@ -129,8 +140,10 @@ function Footer() {
                   </span>
                 </ListGroup.Item>
                 <ListGroup.Item
-                  action
-                  href="#"
+                  as={Link}
+                  to="team"
+                  smooth
+                  duration={500}
                   className="custom-list-item bg-transparent border border-0"
                 >
                   <span>
@@ -142,8 +155,10 @@ function Footer() {
                   </span>
                 </ListGroup.Item>
                 <ListGroup.Item
-                  action
-                  href="#"
+                  as={Link}
+                  to="contact"
+                  smooth
+                  duration={500}
                   className="custom-list-item bg-transparent border border-0"
                 >
                   <span>
@@ -162,8 +177,10 @@ function Footer() {
               <h5 className="lead text-center">Our Services</h5>
               <ListGroup variant="flush">
                 <ListGroup.Item
-                  action
-                  href="#"
+                  as={Link}
+                  to="services"
+                  smooth
+                  duration={500}
                   className="custom-list-item bg-transparent border border-0"
                 >
                   <span>
@@ -175,8 +192,10 @@ function Footer() {
                   </span>
                 </ListGroup.Item>
                 <ListGroup.Item
-                  action
-                  href="#"
+                  as={Link}
+                  to="services"
+                  smooth
+                  duration={500}
                   className="custom-list-item bg-transparent border border-0"
                 >
                   <span>
@@ -188,8 +207,10 @@ function Footer() {
                   </span>
                 </ListGroup.Item>
                 <ListGroup.Item
-                  action
-                  href="#"
+                  as={Link}
+                  to="services"
+                  smooth
+                  duration={500}
                   className="custom-list-item bg-transparent border border-0"
                 >
                   <span>
@@ -201,8 +222,10 @@ function Footer() {
                   </span>
                 </ListGroup.Item>
                 <ListGroup.Item
-                  action
-                  href="#"
+                  as={Link}
+                  to="services"
+                  smooth
+                  duration={500}
                   className="custom-list-item bg-transparent border border-0"
                 >
                   <span>
@@ -214,8 +237,10 @@ function Footer() {
                   </span>
                 </ListGroup.Item>
                 <ListGroup.Item
-                  action
-                  href="#"
+                  as={Link}
+                  to="services"
+                  smooth
+                  duration={500}
                   className="custom-list-item bg-transparent border border-0"
                 >
                   <span>
@@ -227,8 +252,10 @@ function Footer() {
                   </span>
                 </ListGroup.Item>
                 <ListGroup.Item
-                  action
-                  href="#"
+                  as={Link}
+                  to="services"
+                  smooth
+                  duration={500}
                   className="custom-list-item bg-transparent border border-0"
                 >
                   <span>

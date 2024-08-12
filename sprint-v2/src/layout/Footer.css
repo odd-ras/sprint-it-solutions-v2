@@ -11,4 +11,5 @@
 
 .footer-child_container a:hover {
   color: #ffc107;
+  cursor: pointer;
 }

@@ -4,6 +4,11 @@ import React from "react";
 import "./MultiCarousel.css";
 
 import microsoftLogo from "../assets/images/mic-logo.png";
+import mikrotikLogo from "../assets/images/reseller.png";
+import ciscoLogo from "../assets/images/cisco2.png";
+import linuxLogo from "../assets/images/linux-22617.png";
+import mysqlLogo from "../assets/images/mysql.png";
+import ubiquityLogo from "../assets/images/ubiquity.png";
 
 //packages
 import Carousel from "react-multi-carousel";
@@ -53,7 +58,7 @@ function MultiCarousel() {
       >
         <div>
           <Image
-            src={microsoftLogo}
+            src={ubiquityLogo}
             width="100"
             height="60"
             className="d-inline-block my-3"
@@ -61,7 +66,7 @@ function MultiCarousel() {
         </div>
         <div>
           <Image
-            src={microsoftLogo}
+            src={mikrotikLogo}
             width="100"
             height="60"
             className="d-inline-block my-3"
@@ -69,7 +74,7 @@ function MultiCarousel() {
         </div>
         <div>
           <Image
-            src={microsoftLogo}
+            src={ciscoLogo}
             width="100"
             height="60"
             className="d-inline-block my-3"
@@ -77,7 +82,7 @@ function MultiCarousel() {
         </div>
         <div>
           <Image
-            src={microsoftLogo}
+            src={linuxLogo}
             width="100"
             height="60"
             className="d-inline-block my-3"
@@ -85,7 +90,7 @@ function MultiCarousel() {
         </div>
         <div>
           <Image
-            src={microsoftLogo}
+            src={mysqlLogo}
             width="100"
             height="60"
             className="d-inline-block my-3"

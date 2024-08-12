@@ -17,7 +17,7 @@ import { faServer } from "@fortawesome/free-solid-svg-icons";
 import { Element } from "react-scroll";
 
 //images
-import imageOne from "../assets/images/pic-2.jpg";
+import imageOne from "../assets/images/core-value2.jpg";
 import MasonryLayout from "../components/MasonryLayout";
 import CardComponent from "../components/CardComponent";
 
@@ -51,10 +51,11 @@ function Portfolio() {
                   className="fa-2x p-4 text-warning"
                 />
                 <div className="d-flex flex-column">
-                  <h5>Lorem Ipsum</h5>
+                  <h5>Integrity</h5>
                   <p>
-                    At volutpat diam ut venenatis tellus in metus vulputate eu.
-                    Quis varius quam quisque id diam vel quam elementum.
+                    Integrity guides our actions and decisions, ensuring
+                    transparency, trustworthiness, and ethical conduct in all
+                    aspects of our operations.
                   </p>
                 </div>
               </div>
@@ -64,10 +65,11 @@ function Portfolio() {
                   className="fa-2x p-4 text-warning"
                 />
                 <div className="d-flex flex-column">
-                  <h5>Lorem Ipsum</h5>
+                  <h5>Care</h5>
                   <p>
-                    At volutpat diam ut venenatis tellus in metus vulputate eu.
-                    Quis varius quam quisque id diam vel quam elementum.
+                    We demonstrate empathy and consideration in our
+                    interactions, fostering a supportive and compassionate
+                    environment for our team members and stakeholders alike.
                   </p>
                 </div>
               </div>
@@ -77,10 +79,11 @@ function Portfolio() {
                   className="fa-2x p-4 text-warning"
                 />
                 <div className="d-flex flex-column">
-                  <h5>Lorem Ipsum</h5>
+                  <h5>Data Driven</h5>
                   <p>
-                    At volutpat diam ut venenatis tellus in metus vulputate eu.
-                    Quis varius quam quisque id diam vel quam elementum.
+                    By leveraging data analytics and insights, we empower
+                    informed choices that drive innovation, efficiency, and
+                    growth across all aspects of our operations.
                   </p>
                 </div>
               </div>
@@ -90,10 +93,11 @@ function Portfolio() {
                   className="fa-2x p-4 text-warning"
                 />
                 <div className="d-flex flex-column">
-                  <h5>Lorem Ipsum</h5>
+                  <h5>Growth Mindset</h5>
                   <p>
-                    At volutpat diam ut venenatis tellus in metus vulputate eu.
-                    Quis varius quam quisque id diam vel quam elementum.
+                    We encourage continuous learning, resilience in the face of
+                    challenges, and the pursuit of innovative solutions to
+                    foster personal and organizational development.
                   </p>
                 </div>
               </div>

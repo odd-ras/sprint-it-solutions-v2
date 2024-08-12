@@ -1,79 +1,230 @@
 import React from "react";
-
-//bootstrap
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import data from "../../data/data.json";
 
 //css
-import "./Home.css";
+import "./TestimonialCarousel.css";
 
-//fa-icons
+//packages
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+
+//bootstrap
+import Image from "react-bootstrap/Image";
+import Container from "react-bootstrap/esm/Container";
+
+//images
+import ProfileOne from "../assets/images/profile-1.jpg";
+import ProfileTwo from "../assets/images/profile-2.jpg";
+import ProfileThree from "../assets/images/profile-3.jpg";
+import ProfileFour from "../assets/images/profile-4.jpg";
+import ProfileFive from "../assets/images/profile-5.jpg";
+import ProfileSix from "../assets/images/profile-6.jpg";
+
+//fa
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faServer } from "@fortawesome/free-solid-svg-icons";
+import { faQuoteLeft, faQuoteRight } from "@fortawesome/free-solid-svg-icons";
 
-//react-scroll
-import { Element } from "react-scroll";
+function TestimonialCarousel() {
+  const testimonialArray = Object.values(data);
+  console.log(testimonialArray.userName);
 
-function Home() {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 1,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 1,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
+
   return (
-    <Element name="home">
-      <Container className="home-container">
-        <div className="d-flex border flex-column justify-content-center h-100">
-          <Container className="mb-5">
-            <Row className="justify-content-center">
-              <Col xs={8} className="">
-                <div className="d-flex flex-column text-center">
-                  <h1 className="display-1">
-                    Lorem ipsum dolor sit amet, consectetur.
-                  </h1>
-                  <p className="fs-5">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-          <Container className="">
-            <Row className="justify-content-center">
-              <Col xs={12} md={4} lg={2} className="">
-                <div className="d-flex flex-column border align-items-center py-5">
-                  <FontAwesomeIcon icon={faServer} className="fa-2x" />
-                  <span>lorem ipsum</span>
-                </div>
-              </Col>
-              <Col xs={12} md={4} lg={2} className="">
-                <div className="d-flex flex-column border align-items-center py-5">
-                  <FontAwesomeIcon icon={faServer} className="fa-2x" />
-                  <span>lorem ipsum</span>
-                </div>
-              </Col>
-              <Col xs={12} md={4} lg={2} className="">
-                <div className="d-flex flex-column border align-items-center py-5">
-                  <FontAwesomeIcon icon={faServer} className="fa-2x" />
-                  <span>lorem ipsum</span>
-                </div>
-              </Col>
-              <Col xs={12} md={4} lg={2} className="">
-                <div className="d-flex flex-column border align-items-center py-5">
-                  <FontAwesomeIcon icon={faServer} className="fa-2x" />
-                  <span>lorem ipsum</span>
-                </div>
-              </Col>
-              <Col xs={12} md={4} lg={2} className="">
-                <div className="d-flex flex-column border align-items-center py-5">
-                  <FontAwesomeIcon icon={faServer} className="fa-2x" />
-                  <span>lorem ipsum</span>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-      </Container>
-    </Element>
+    <>
+      <Carousel
+        responsive={responsive}
+        arrows={false}
+        autoPlay
+        autoPlaySpeed={10000}
+        swipeable={false}
+        draggable={false}
+        showDots={true}
+        ssr={true} // means to render carousel on server-side.
+        infinite={true}
+        keyBoardControl={true}
+        dotListClass="custom-dot-list-style"
+        itemClass="carousel-item-padding-40-px"
+        containerClass="carousel-container"
+        removeArrowOnDeviceType={["tablet", "mobile"]}
+      >
+        <Container className="text-center">
+          <div className="d-flex flex-column justify-content-center align-items-center col-sm-8 w-100 px-5">
+            <Image
+              src={ProfileOne}
+              fluid
+              height="100"
+              width="100"
+              className="d-inline-block rounded-circle"
+            />
+            <h3 className="display-5">{data.testimonials.userName}</h3>
+            <h6 className="display-6">
+              <small className="text-body-secondary">Title</small>
+            </h6>
+            <div className="blockquote">
+              <p className="mb-4">
+                <FontAwesomeIcon icon={faQuoteLeft} />
+                <em>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Mauris augue neque gravida in fermentum et sollicitudin ac.
+                </em>
+                <FontAwesomeIcon icon={faQuoteRight} />
+              </p>
+            </div>
+          </div>
+        </Container>
+        <Container className="text-center">
+          <div className="d-flex flex-column justify-content-center align-items-center col-sm-8 w-100 px-5">
+            <Image
+              src={ProfileTwo}
+              fluid
+              height="100"
+              width="100"
+              className="rounded-circle testimonial-image"
+            />
+            <h3 className="display-5">User Name</h3>
+            <h6 className="display-6">
+              <small className="text-body-secondary">Title</small>
+            </h6>
+            <div className="blockquote">
+              <p className="mb-4">
+                <FontAwesomeIcon icon={faQuoteLeft} />
+                <em>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Mauris augue neque gravida in fermentum et sollicitudin ac.
+                </em>
+                <FontAwesomeIcon icon={faQuoteRight} />
+              </p>
+            </div>
+          </div>
+        </Container>
+        <Container className="text-center">
+          <div className="d-flex flex-column justify-content-center align-items-center col-sm-8 w-100 px-5">
+            <Image
+              src={ProfileTwo}
+              fluid
+              height="100"
+              width="100"
+              className="d-inline-block rounded-circle"
+            />
+            <h3 className="display-5">User Name</h3>
+            <h6 className="display-6">
+              <small className="text-body-secondary">Title</small>
+            </h6>
+            <div className="blockquote">
+              <p className="mb-4">
+                <FontAwesomeIcon icon={faQuoteLeft} />
+                <em>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Mauris augue neque gravida in fermentum et sollicitudin ac.
+                </em>
+                <FontAwesomeIcon icon={faQuoteRight} />
+              </p>
+            </div>
+          </div>
+        </Container>
+        <Container className="text-center">
+          <div className="d-flex flex-column justify-content-center align-items-center col-sm-8 w-100 px-5">
+            <Image
+              src={ProfileFour}
+              fluid
+              height="100"
+              width="100"
+              className="d-inline-block rounded-circle"
+            />
+            <h3 className="display-5">User Name</h3>
+            <h6 className="display-6">
+              <small className="text-body-secondary">Title</small>
+            </h6>
+            <div className="blockquote">
+              <p className="mb-4">
+                <FontAwesomeIcon icon={faQuoteLeft} />
+                <em>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Mauris augue neque gravida in fermentum et sollicitudin ac.
+                </em>
+                <FontAwesomeIcon icon={faQuoteRight} />
+              </p>
+            </div>
+          </div>
+        </Container>
+        <Container className="text-center">
+          <div className="d-flex flex-column justify-content-center align-items-center col-sm-8 w-100 px-5">
+            <Image
+              src={ProfileFour}
+              fluid
+              height="100"
+              width="100"
+              className="d-inline-block rounded-circle"
+            />
+            <h3 className="display-5">User Name</h3>
+            <h6 className="display-6">
+              <small className="text-body-secondary">Title</small>
+            </h6>
+            <div className="blockquote">
+              <p className="mb-4">
+                <FontAwesomeIcon icon={faQuoteLeft} />
+                <em>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Mauris augue neque gravida in fermentum et sollicitudin ac.
+                </em>
+                <FontAwesomeIcon icon={faQuoteRight} />
+              </p>
+            </div>
+          </div>
+        </Container>
+        <Container className="text-center">
+          <div className="d-flex flex-column justify-content-center align-items-center col-sm-8 w-100 px-5">
+            <Image
+              src={ProfileSix}
+              fluid
+              height="100"
+              width="100"
+              className="d-inline-block rounded-circle"
+            />
+            <h3 className="display-5">User Name</h3>
+            <h6 className="display-6">
+              <small className="text-body-secondary">Title</small>
+            </h6>
+            <div className="blockquote">
+              <p className="mb-4">
+                <FontAwesomeIcon icon={faQuoteLeft} />
+                <em>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Mauris augue neque gravida in fermentum et sollicitudin ac.
+                </em>
+                <FontAwesomeIcon icon={faQuoteRight} />
+              </p>
+            </div>
+          </div>
+        </Container>
+      </Carousel>
+    </>
   );
 }
 
-export default Home;
+export default TestimonialCarousel;

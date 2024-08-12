@@ -33,18 +33,23 @@ function NavigationPanel() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" className="ms-auto" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto align-items-center">
-              <Link to="home" smooth={true} duration={50} className="nav-link">
+              <Link to="home" smooth={true} duration={500} className="nav-link">
                 Home
               </Link>
 
-              <Link to="about" smooth={true} duration={50} className="nav-link">
+              <Link
+                to="about"
+                smooth={true}
+                duration={500}
+                className="nav-link"
+              >
                 About
               </Link>
 
               <Link
                 to="services"
                 smooth={true}
-                duration={50}
+                duration={500}
                 className="nav-link"
               >
                 Services
@@ -53,26 +58,32 @@ function NavigationPanel() {
               <Link
                 to="portfolio"
                 smooth={true}
-                duration={50}
+                duration={500}
                 className="nav-link"
               >
                 Portfolio
               </Link>
 
-              <Link to="team" smooth={true} duration={50} className="nav-link">
+              <Link to="team" smooth={true} duration={500} className="nav-link">
                 Team
               </Link>
 
               <Link
                 to="contact"
                 smooth={true}
-                duration={50}
+                duration={500}
                 className="nav-link"
               >
                 Contact
               </Link>
 
-              <Nav.Link className="navigation_link">
+              <Nav.Link
+                as={Link}
+                to="contact"
+                smooth
+                duration={500}
+                className="navigation_link"
+              >
                 <Button variant="outline-success">Get Started</Button>{" "}
               </Nav.Link>
             </Nav>

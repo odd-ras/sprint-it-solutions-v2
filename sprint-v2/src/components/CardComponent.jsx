@@ -15,7 +15,6 @@ import ListGroup from "react-bootstrap/ListGroup";
 
 function CardComponent() {
   const [solutions, setSolutions] = useState(data.solutions);
-  console.log(solutions);
 
   return (
     <>
